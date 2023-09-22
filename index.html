@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- =========================== Link CSS ========================== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ============================= Add Icons ========================== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="heading">
+        <div class="navbar">
+            <a href="#" class="logo">LOGO.</a>
+
+            <ul>
+                <li class="item">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Product</a>
+                    <a href="#">Feedback</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div> 
+
+    <section class="home">
+        <div class="content-box">
+            <div class="login-form">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter Your E-mail" required>
+                        <i><ion-icon name="mail"></ion-icon></i>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Enter Your password" required>
+                        <i><ion-icon name="lock-closed"></ion-icon></i>
+                    </div>
+
+                    <div class="option-check">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember Me</label>
+                        </span>
+
+                        <a href="#" class="forgot">Forgot Password ?</a>
+                    </div>
+
+                    <button class="btn">Login</button>
+
+                    <div class="sign-up">
+                        Don't have an account ? <a href="#" class="signup">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
